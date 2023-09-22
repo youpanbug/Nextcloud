@@ -2,7 +2,7 @@
 
 ## Nextcloud一建安装:<https://github.com/nextcloud/nextcloud-snap>
 
-建议安装Ubuntu系统,因为官方一键安装包用的是Snap,CentOS还不支持
+建议安装deban11系统,因为官方一键安装包用的是Snap,CentOS还不支持
 
     $ sudo apt-get update
     $ sudo apt-get install snap
@@ -20,7 +20,7 @@
 
     $ sudo nextcloud.enable-https lets-encrypt
 
-(系统就会自动申请let's Encrypt证书并启用)
+(输入邮箱和域名即可，系统就会自动申请let's Encrypt证书并启用)
 
 ## 以后升级
 
